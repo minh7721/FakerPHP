@@ -1,0 +1,22 @@
+{
+    "name": "minhhn/faker",
+    "description": "Test package Faker",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "minhhn",
+            "email": "nhatminh7721@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Src\\": "src/"
+        }
+    },
+    "require": {
+        "fakerphp/faker": "^1.20"
+    },
+    "config": { "platform-check": false }
+}
